@@ -14,7 +14,7 @@
     "url" : "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
   "scripts": {
-    "install": "gulp install"
+    "install": "echo $npm_package_config_semantic_ui_autoinstall && $npm_package_config_semantic_ui_autoinstall && gulp install"
   },
   "peerDependencies": {
     "better-console"    : "0.*",
